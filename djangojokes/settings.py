@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     #own apps
+    "jokes.apps.JokesConfig",
     "pages.apps.PagesConfig",
-
+    
 ]
 
 MIDDLEWARE = [
